@@ -1,23 +1,50 @@
-# Ai-Assistant
+# 🤖 Jarvis - AI Desktop Assistant
 
-Created an AI desktop assistant using Python for voice-based task automation, including web searches,
-reminders, and file management.
+Jarvis is a smart AI desktop assistant built with Python that enables voice-based task automation including web searches, reminders, file management, and more.
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+![AI](https://img.shields.io/badge/AI-Enabled-critical?logo=openai)
+![Voice Assistant](https://img.shields.io/badge/Voice%20Assistant-Active-success?logo=googleassistant)
+![NLP](https://img.shields.io/badge/NLP-HuggingFace-orange?logo=cohere)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-• Voice Command Communication: Seamlessly interact with the assistant (Jarvis) using natural language voice Commands.
+---
 
-• Decision Making Model: Implements AI-based decision logic for smart responses and automation.
+## ✨ Features
 
-• Chatbot Functionality: Engages in intelligent conversations using NLP and contextual understanding.
+- 🎙 **Voice Command Communication** — Seamless natural language interaction with the assistant.
+- 🧠 **Decision Making Model** — AI-powered logic for automated and smart decision-making.
+- 💬 **Chatbot Functionality** — Engages in contextual conversations using NLP.
+- 🖼️ **Image Generation** — Generates creative images from user prompts using AI models.
+- 🌐 **Real-Time Web Search** — Instantly fetches information from the internet.
+- 🗣️ **Speech-to-Text (STT)** — Converts voice input to text for processing.
+- 🔊 **Text-to-Speech (TTS)** — Converts responses into natural-sounding audio.
+- 🧍 **Personalized Responses** — Learns and adapts to user preferences over time.
 
-• Image Generation: Creates AI-generated images based on user prompts.
+---
 
-• Real-Time Search: Fetches up-to-date information from the web dynamically.
+## 🛠 Technologies Used
 
-• Speech-to-Text (STT): Converts spoken words into text for seamless voice interaction.
+- **Language**: Python
+- **APIs**:
+  - 🧠 Groq API
+  - 🧠 Cohere API
+  - 🖼 Canva API
+  - 🤗 HuggingFace API
+- **IDE Tools**: CodeWhisperer, AWS Toolkit
+- **Other**: SpeechRecognition, pyttsx3, OpenAI-compatible APIs
 
-• Text-to-Speech (TTS): Transforms text responses into natural-sounding speech output.
+---
 
-• Personalized Responses: The assistant provides tailored responses based on user preferences and past interaction
+## 📂 Project Structure
 
-• Technology Used: Python, Groq API, Cohere API, Canva API, HuggingFace API, CodeWhisperer, AWS Toolkit,
+```plaintext
+📁 Jarvis-AI-Assistant/
+│
+├── main.py              # Entry point
+├── speech.py            # Voice I/O handlers
+├── chatbot.py           # NLP-based response system
+├── image_generator.py   # AI image generation logic
+├── web_search.py        # Dynamic web scraping & search
+├── utils.py             # Helper functions
+└── requirements.txt     # Python dependencies

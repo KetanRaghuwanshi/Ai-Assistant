@@ -52,33 +52,16 @@ Jarvis is a smart AI desktop assistant built with Python that enables voice-base
 🚀 Getting Started
 Clone the repo:
 
-bash
-Copy
-Edit
 git clone https://github.com/KetanRaghuwanshi/Ai-Assistant.git
 cd Ai-Assistant
+
 Install dependencies:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
-Run the assistant:
 
-bash
-Copy
-Edit
+Run the assistant:
 python main.py
+
 🤝 Contribution
 Pull requests are welcome! Feel free to fork the project and submit a PR.
 
-📃 License
-This project is licensed under the MIT License.
-
-Developed with ❤️ by Ketan Raghuwanshi
-
-vbnet
-Copy
-Edit
-
-Let me know if you'd like help turning this into an actual file or customizing it more!
+Developed by Ketan Raghuwanshi
